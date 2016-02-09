@@ -20,9 +20,8 @@
 <script>
 angular.module("myapp", [])
     .controller("HelloController", function($scope) {
-        
-        
-        myapp.directive('jSignatureDirective', function() {
+ } )
+ .directive('jSignatureDirective', function() {
 				    return {
 				        restrict: 'E',
 				        template: '<button ng-click="reset()">reset</button>',
@@ -111,9 +110,6 @@ angular.module("myapp", [])
 				        }
 				    };
 				}); 
-        
-        
-    } );
 </script>
   
   </body>
